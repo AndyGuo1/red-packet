@@ -29,29 +29,29 @@ import org.springframework.transaction.annotation.TransactionManagementConfigure
 import redis.clients.jedis.JedisPoolConfig;
 
 /**
- * ╫вя┐╜я┐╜@EnableTransactionManagementя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜╩╡я┐╜я┐╜TransactionManagementConfigurerя┐╜я┐╜
- * я┐╜я┐╜╬кя┐╜я┐╜╩╡я┐╜я┐╜╫вя┐╜я┐╜╩╜я┐╜я┐╜я┐╜я┐╜я┐╜ёгм╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜═ия┐╜я┐╜@Transactionalя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜
- * annotationDrivenTransactionManagerя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜╥╗я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜
+ * Б0√0Д1д7Д1д7@EnableTransactionManagementД1д7Д1д7Д1д7Д1д7Д1д7Д1д7Б0╡6Д1д7Д1д7TransactionManagementConfigurerД1д7Д1д7
+ * Д1д7Д1д7Б0╦2Д1д7Д1д7Б0╡6Д1д7Д1д7Б0√0Д1д7Д1д7Б0╢4Д1д7Д1д7Д1д7Д1д7Д1д7л2Н5Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Б0╟0Д1д7Д1д7@TransactionalД1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7
+ * annotationDrivenTransactionManagerД1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Б0▌5Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7
  * 
- * я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜тгмя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜╘┤SqlSessionFactoryBeanя┐╜я┐╜MyBatisя┐╜я┐╜╔ия┐╜я┐╜я┐╜ргмя┐╜я┐╜я┐╜я┐╜MyBatisя┐╜я┐╜╔ия┐╜я┐╜я┐╜я┐╜═ия┐╜я┐╜
- * ╫вя┐╜я┐╜@Repositoryя┐╜═░я┐╜я┐╜я┐╜("com.*")я┐╜▐╢я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜MyBatisя┐╜═╗я┐╜═ия┐╜я┐╜Springя┐╜─╗я┐╜я┐╜я┐╜я┐╜╥╡я┐╜я┐╜я┐╜╙жя┐╜─╜╙┐┌║я┐╜я┐╜я┐╜я┐╜├гя┐╜
- * Springя┐╜я┐╜╤╢я┐╜╙жя┐╜─╜╙┐я┐╜╫░я┐╜ф╡╜IoCя┐╜я┐╜я┐╜я┐╜я┐╜╨бя┐╜
+ * Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Б7э0Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Б0щ6SqlSessionFactoryBeanД1д7Д1д7MyBatisД1д7Д1д7Б0н9Д1д7Д1д7Д1д7Б1╩8Д1д7Д1д7Д1д7Д1д7MyBatisД1д7Д1д7Б0н9Д1д7Д1д7Д1д7Д1д7Б0╟0Д1д7Д1д7
+ * Б0√0Д1д7Д1д7@RepositoryД1д7Б0╟8Д1д7Д1д7Д1д7("com.*")Д1д7Б1л8Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7MyBatisД1д7Б0╚9Д1д7Б0╟0Д1д7Д1д7SpringД1д7Б0С3Д1д7Д1д7Д1д7Д1д7Б0▄9Д1д7Д1д7Д1д7Б0с8Д1д7Б0С5Б0ф3Б1Т6Д1д7Д1д7Д1д7Д1д7Б0К0Д1д7
+ * SpringД1д7Д1д7Б0╓6Д1д7Б0с8Д1д7Б0С5Б0ф3Д1д7Б0№4Д1д7В5В3IoCД1д7Д1д7Д1д7Д1д7Д1д7з│Д1д7
  * 
  * @author Niantianlei
  */
 @Configuration
-//я┐╜я┐╜я┐╜я┐╜Spring ╔ия┐╜я┐╜─░я┐╜
+//Д1д7Д1д7Д1д7Д1д7Spring Б0н9Д1д7Д1д7Б0Р2Д1д7
 @ComponentScan(value= "com.*", includeFilters= {@Filter(type = FilterType.ANNOTATION, value ={Service.class})})
-//╩╣я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜
+//Б0╢0Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7
 @EnableTransactionManagement
-//╩╡я┐╜╓╜╙┐я┐╜TransactionManagementConfigurerя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜╫вя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜
+//Б0╡6Д1д7Б0ў3Б0ф3Д1д7TransactionManagementConfigurerД1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Б0√0Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7
 public class RootConfig implements TransactionManagementConfigurer {
 	
 	private DataSource dataSource = null;
 	
 	/**
-	 * я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜▌┐я┐╜
-	 * @return я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜╙│я┐╜
+	 * Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Б1ж3Д1д7
+	 * @return Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Б0у1Д1д7
 	 */
 	@Bean(name = "dataSource")
 	public DataSource initDataSource() {
@@ -75,22 +75,22 @@ public class RootConfig implements TransactionManagementConfigurer {
 	}
 	
 	/***
-	 * я┐╜я┐╜я┐╜я┐╜SqlSessionFactoryBean
+	 * Д1д7Д1д7Д1д7Д1д7SqlSessionFactoryBean
 	 * @return SqlSessionFactoryBean
 	 */
 	@Bean(name="sqlSessionFactory")
 	public SqlSessionFactoryBean initSqlSessionFactory() {
 		SqlSessionFactoryBean sqlSessionFactory = new SqlSessionFactoryBean();
 		sqlSessionFactory.setDataSource(initDataSource());
-		//я┐╜я┐╜я┐╜я┐╜MyBatisя┐╜я┐╜я┐╜я┐╜я┐╜─╝я┐╜
+		//Д1д7Д1д7Д1д7Д1д7MyBatisД1д7Д1д7Д1д7Д1д7Д1д7Б0С4Д1д7
 		Resource resource = new ClassPathResource("mybatis-config.xml");
 		sqlSessionFactory.setConfigLocation(resource);
 		return sqlSessionFactory;
 	}
 	
 	/***
-	 * ═ия┐╜я┐╜я┐╜╘╢я┐╜╔ия┐╜шгмя┐╜я┐╜я┐╜я┐╜MyBatis Mapperя┐╜╙┐я┐╜
-	 * @return Mapper╔ия┐╜я┐╜я┐╜я┐╜
+	 * Б0╟0Д1д7Д1д7Д1д7Б0щ8Д1д7Б0н9Д1д7╤kД1д7Д1д7Д1д7Д1д7MyBatis MapperД1д7Б0ф3Д1д7
+	 * @return MapperБ0н9Д1д7Д1д7Д1д7Д1д7
 	 */
 	@Bean 
 	public MapperScannerConfigurer initMapperScannerConfigurer() {
@@ -103,7 +103,7 @@ public class RootConfig implements TransactionManagementConfigurer {
 	
 	
 	/**
-	 * ╩╡я┐╜╓╜╙┐┌╖я┐╜я┐╜я┐╜я┐╜я┐╜╫вя┐╜я┐╜╫вя┐╜я┐╜я┐╜я┐╜я┐╜ёгм╡я┐╜@Transactional ╩╣я┐╜├╡я┐╜╩▒я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜▌┐я┐╜я┐╜я┐╜я┐╜я┐╜ 
+	 * Б0╡6Д1д7Б0ў3Б0ф3Б1Т3Д1д7Д1д7Д1д7Д1д7Д1д7Б0√0Д1д7Д1д7Б0√0Д1д7Д1д7Д1д7Д1д7Д1д7л2М7Д1д7@Transactional Б0╢0Д1д7Б0Л1Д1д7Б0╡2Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Б1ж3Д1д7Д1д7Д1д7Д1д7Д1д7 
 	 */
 	@Override
 	@Bean(name="annotationDrivenTransactionManager")
@@ -115,34 +115,34 @@ public class RootConfig implements TransactionManagementConfigurer {
 	}
 	
 	/*
-	 * я┐╜я┐╜я┐╜я┐╜╥╗я┐╜я┐╜RedisTemplateя┐╜я┐╜я┐╜єгм▓я┐╜╫░я┐╜╪╡я┐╜IoCя┐╜я┐╜я┐╜я┐╜я┐╜╨бя┐╜
-	 * я┐╜я┐╜я┐╜я┐╜RedisTemplateя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜Springя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜╩╣я┐╜я┐╜я┐╜╦бя┐╜
-	 * JedisConnectionFactoryя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜╩▒я┐╜я┐╜я┐╜я┐╜╥кя┐╜я┐╜я┐╜╨╡я┐╜я┐╜я┐╜afterPropertiesSetя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜
-	 * я┐╜я┐╜╩╡я┐╜я┐╜я┐╜я┐╜InitializingBeanя┐╜╙┐┌бя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜IoCя┐╜я┐╜я┐╜я┐╜я┐╜╨гя┐╜Springя┐╜я┐╜я┐╜╘╢я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜╨┤я┐╜я┐╜я┐╜я┐╜я┐╜
-	 * я┐╜я┐╜╬кя┐╜я┐╜╥кя┐╜я┐╜я┐╜╨╡я┐╜я┐╜├гя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜├╡я┐╜╩▒я┐╜я┐╜я┐╜я┐╜╫│я┐╜я┐╜ь│гя┐╜я┐╜я┐╜я┐╜я┐╜╓┤я┐╜я┐╜я┐╜
+	 * Д1д7Д1д7Д1д7Д1д7Б0▌5Д1д7Д1д7RedisTemplateД1д7Д1д7Д1д7╘8Щ2Д1д7Б0№4Д1д7Б1Е3Д1д7IoCД1д7Д1д7Д1д7Д1д7Д1д7з│Д1д7
+	 * Д1д7Д1д7Д1д7Д1д7RedisTemplateД1д7Д1д7Д1д7Д1д7Д1д7Д1д7SpringД1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Б0╢0Д1д7Д1д7Д1д7Б0╣5Д1д7
+	 * JedisConnectionFactoryД1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Б0╡2Д1д7Д1д7Д1д7Д1д7Б0█8Д1д7Д1д7Д1д7з╓Д1д7Д1д7Д1д7afterPropertiesSetД1д7Д1д7Д1д7Д1д7Д1д7Д1д7
+	 * Д1д7Д1д7Б0╡6Д1д7Д1д7Д1д7Д1д7InitializingBeanД1д7Б0ф3Б1Р1Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7IoCД1д7Д1д7Д1д7Д1д7Д1д7з╡Д1д7SpringД1д7Д1д7Д1д7Б0щ8Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7з╒Д1д7Д1д7Д1д7Д1д7Д1д7
+	 * Д1д7Д1д7Б0╦2Д1д7Д1д7Б0█8Д1д7Д1д7Д1д7з╓Д1д7Д1д7Б0К0Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Б0Л1Д1д7Б0╡2Д1д7Д1д7Д1д7Д1д7Б0№7Д1д7Д1д7Г4з4Д1д7Д1д7Д1д7Д1д7Д1д7Б0Ў4Д1д7Д1д7Д1д7
 	 */
 	@Bean(name = "redisTemplate")
 	public RedisTemplate initRedisTemplate() {
 		JedisPoolConfig poolConfig = new JedisPoolConfig();
-		//я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜
+		//Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7
 		poolConfig.setMaxIdle(50);
-		//я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜
+		//Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7
 		poolConfig.setMaxTotal(100);
-		//я┐╜я┐╜я┐╜╚┤я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜
+		//Д1д7Д1д7Д1д7Б0и9Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7
 		poolConfig.setMaxWaitMillis(20000);
-		//я┐╜я┐╜я┐╜я┐╜Jedisя┐╜я┐╜я┐╜╙╣я┐╜я┐╜я┐╜
+		//Д1д7Д1д7Д1д7Д1д7JedisД1д7Д1д7Д1д7Б0у7Д1д7Д1д7Д1д7
 		JedisConnectionFactory connectionFactory = new JedisConnectionFactory(poolConfig);
 		connectionFactory.setHostName("localhost");
 		connectionFactory.setPort(6379);
-		//я┐╜я┐╜я┐╜├║я┐╜я┐╜╩╝я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜├╗я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜╫│я┐╜я┐╜ь│г
+		//Д1д7Д1д7Д1д7и▓Д1д7Д1д7Б0╢3Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Б0Л4Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Б0№7Д1д7Д1д7Г4з4
 		connectionFactory.afterPropertiesSet();
-		//я┐╜╘╢я┐╜Redisя┐╜я┐╜я┐╜╨╗я┐╜я┐╜я┐╜
+		//Д1д7Б0щ8Д1д7RedisД1д7Д1д7Д1д7з▌Д1д7Д1д7Д1д7
 		RedisSerializer jdkSerializationRedisSerializer = new JdkSerializationRedisSerializer();
 		RedisSerializer stringRedisSerializer = new StringRedisSerializer();
-		//я┐╜я┐╜я┐╜я┐╜RedisTemplateя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜╙╣я┐╜я┐╜я┐╜[я┐╜▐╕я┐╜╬кя┐╜я┐╜я┐╜я┐╜я┐╜я┐╜]
+		//Д1д7Д1д7Д1д7Д1д7RedisTemplateД1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Б0у7Д1д7Д1д7Д1д7[Д1д7Б1м0Д1д7Б0╦2Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7]
 		RedisTemplate redisTemplate = new RedisTemplate();
 		redisTemplate.setConnectionFactory(connectionFactory);
-		//я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜я┐╜╨╗я┐╜я┐╜я┐╜
+		//Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7Д1д7з▌Д1д7Д1д7Д1д7
 		redisTemplate.setDefaultSerializer(stringRedisSerializer);
 		redisTemplate.setKeySerializer(stringRedisSerializer);
 		redisTemplate.setValueSerializer(stringRedisSerializer);

@@ -2,9 +2,17 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/nian/config/RootConfig.java" charset="GB18030" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/nian/config/WebAppInitializer.java" charset="GB18030" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/nian/config/WebConfig.java" charset="GB18030" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/nian/controller/UserRedPacketController.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java/com/nian/service/RedisRedPacketService.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/nian/dao/RedPacketDao.java" charset="GB18030" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/nian/dao/UserRedPacketDao.java" charset="GB18030" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/nian/service/RedPacketService.java" charset="GB18030" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/nian/service/RedisRedPacketService.java" charset="GB18030" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/nian/service/UserRedPacketService.java" charset="GB18030" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/nian/service/impl/RedPacketServiceImpl.java" charset="GB18030" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/nian/service/impl/RedisRedPacketServiceImpl.java" charset="GB18030" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/nian/service/impl/UserRedPacketServiceImpl.java" charset="GB18030" />
     <file url="file://$PROJECT_DIR$/../seconds-kill" charset="UTF-8" />
   </component>
